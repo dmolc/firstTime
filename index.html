@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html style="color:black">
+<!--style="color:цвет" позваляет менять цвет текста -->
+
+<head>
+    <title>
+        Привет, Бро!
+    </title>
+    <!--title это там где можно закрыть вкладку , там можно чо то написать -->
+
+    <meta charset="utf-8">
+    <!-- meta - мета данные для сайта 
+        charset кодировка
+    Мета-тег для указания кодировки страницы -->
+    <meta name="keywords" content="мой сайт, html, привет, бро!">
+    <meta name="description" content="Этот сайт помогает людям создать собственные сайты">
+    <!-- Мета-тег для описания страницы: -->
+
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/earth-globe-icon-vector-icons-white-background-trendy-linear-website-print-logo-emblem-symbol-inter-interface-element-168199322.jpg">
+    <!--сверху где вкладку можно закрыть с помщью этого можно поставить любую картинку
+    rel  Он обозначает, что это за ссылка и на какой адрес она ведет. 
+    Работает это следующим образом: когда ссылка направляет пользователя на адрес,
+        атрибут рассказывает поисковым системам, почему ссылка ведет на этот адрес.
+             Например, ссылаться можно на файл стилей, который взаимодействует со страницей.
+    href путь к файлу-->
+
+    <link rel="stylesheet" href="style.css">
+    <!--с помощью style таблице можно применить любой стиль и цвет-->
+
+    <style>
+        table {
+            color: blue
+        }
+    </style>
+    <!--ссылка на стиль-->
+
+</head>
+
+<body>
+
+    <h1 style=" color: red ">Этот заголовок h1</h1>
+    <!--h отвечает за заголовок(h1 самый большой, h6 самый маленький;
+        h1-h6) -->
+    <h2 class="privet">это заголовок h2</h2>
+
+    <p id="ideveloper">
+        <!--p отвечает за то что бы текст стал параграфом id="ideveloper " якорь--><b>Текст внутри</b>
+        <!--b делает текст жирным--><br>
+        <!--br переносит текст на след строку,
+        его не надо закрывать "/ " --><em>тега</em>
+        <!--em делает текст курсивом -->
+    </p>
+    <!--описание,
+        br переносит текст на новую строку,
+        b делает жирным,
+        em курсив-->
+    <p>
+        <a href="https://www.youtube.com/watch?v=4jYYHaTwWvY&ab_channel=DKA-DEVELOP" target="_blank">
+            <!--a href=" " - можно вставить ссылку,
+        target="_blank " - когда нажимаешь на ссылку открывается в новом окне-->Link on video about html </a>
+    </p>
+
+    <br>
+
+    <a href="#ideveloper">
+        якорь на абзац
+    </a>
+
+    <ul class="list">
+        <!--ul создает список -->
+
+        <li height="200">первый элемент поиска</li>
+        <!-- li ставит точки к списку-->
+        <li>Второй элемент поиска</li>
+
+        <li><a href="https://www.youtube.com/watch?v=4jYYHaTwWvY&ab_channel=DKA-DEVELOP ">youtube</a>ссылка </li>
+        <ul>
+            <!--ul создает список -->
+
+            <li height="200">второй уровень</li>
+            <!-- li ставит точки к списку-->
+            <li>Второй уровень</li>
+            <hr>
+            <!--hr проводит черту на весь экран-->
+
+            <table class="table-red" border="1 ">
+                <!--table создает таблицу,
+        border создает линии вокруг таблицы
+    когда у тега есть нексколько классов перечесление идет через пробел-->
+
+                <thead>
+
+                    <tr>
+                        <th height="200 ">Название фрукта</th>
+                        <th>Кол-во</th>
+                    </tr>
+                    <!--tr создает ряд для таблицы,
+        th выделяет текст жирным внутри таблицы -->
+
+                </thead>
+                <!--thead голова таблицы -->
+
+                <tbody>
+
+                    <tr>
+                        <td>Яблоко</td>
+                        <td>2 <img src="C:\Users\danil\Desktop\Picture\57a7be1f328dd7ac.png " width="150 " height="200 "></td>
+                    </tr>
+
+                    <tr>
+                        <td>Апельсин</td>
+                        <td>3</td>
+                        <!--td обычная толщина текста -->
+                    </tr>
+
+                </tbody>
+                <!--tbody тело таблицы-->
+
+                <tfoot>
+
+                    <tr>
+                        <td colspan="2 ">Итого: 5 шт.</td>
+                        <!--colspan=" " - атрибут отвечает за объеденение ячеек-->
+                    </tr>
+
+                </tfoot>
+                <!--tfoot низ таблицы -->
+
+            </table>
+
+            <table class="table-blue table-bold " border="1 ">
+                <!--table создает таблицу,
+        border создает линии вокруг таблицы
+    когда у тега есть нексколько классов перечесление идет через пробел -->
+
+                <thead>
+
+                    <tr>
+                        <th height="200 ">Название фрукта</th>
+                        <th>Кол-во</th>
+                    </tr>
+                    <!--tr создает ряд для таблицы,
+        th выделяет текст жирным внутри таблицы -->
+
+                </thead>
+                <!--thead голова таблицы -->
+
+                <tbody>
+
+                    <tr>
+                        <td>Яблоко</td>
+                        <td>2 <img src="C:\Users\danil\Desktop\Picture\57a7be1f328dd7ac.png " width="150 " height="200 "></td>
+                    </tr>
+
+                    <tr>
+                        <td>Апельсин</td>
+                        <td>3</td>
+                        <!--td обычная толщина текста -->
+                    </tr>
+
+                </tbody>
+                <!--tbody тело таблицы-->
+
+                <tfoot>
+
+                    <tr>
+                        <td colspan="2 ">Итого: 5 шт.</td>
+                        <!--colspan=" " - атрибут отвечает за объеденение ячеек-->
+                    </tr>
+
+                </tfoot>
+                <!--tfoot низ таблицы -->
+
+            </table>
+
+
+            <img src="C:\Users\danil\Desktop\Picture\57a7be1f328dd7ac.png ">
+            <!--img src позволяет добавить картинку -->
+
+            <p>Для текста</p>
+            <input type="text ">
+            <!--input type=" " позваляет создать поле для ввода текста -->
+
+            <p>Для цифр</p>
+            <input type="number ">
+
+            <p>для дат</p>
+            <form class=" " action=" index.html " method="post ">
+                <input type="month ">
+            </form>
+
+
+            <a class="font-size-md color-red " href="# ">Первая ссылка</a>
+            <br>
+            <a class="font-size-md color-gray " href="# ">Вторая ссылка</a>
+</body>
+
+</html>
